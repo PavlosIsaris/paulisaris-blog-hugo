@@ -1,0 +1,66 @@
+baseurl         = "https://paulisaris.com/"
+theme           = "casper-two"
+languageCode    = "en-US"
+paginate        = 6
+Copyright = "All rights reserved - 2019"
+title = "Paul Isaris | A Developer's Journey"
+
+[params]
+  title       = "Paul Isaris"
+  subtitle    = "Not all those who wander are lost"
+
+  cover       = "img/blog-cover.jpg"
+  description = "Blog about a developer's journey in coding, teaching, design patterns, productivity and agile methods."
+  metaDescription = "Paul Isaris Blog about a developer's journey in coding, teaching, design patterns, productivity and agile methods."
+  googleAnalytics = "UA-97506038-2"
+  customCSS = ["css/styles.css"]
+  RSSLink = ""
+
+  #twitterName = "nivoul"
+  githubName = "PavlosIsaris"
+  linkedinName = "pavlosisaris"
+
+  logo = ""
+  orgName = "Paul Isaris"
+  orgWebsite = "https://paulisaris.com"
+  orgDescription = "Not all those who wander are lost"
+
+  author = "Paul Isaris"
+  authorAvatar = "img/paul_60w.jpg"
+  authorLocation = "Athens, Greece"
+  authorWebsite = "https://paulisaris.com"
+  authorDescription = "Not all those who wander are lost"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  singleViewStyle = "casper"
+  disqusShortname = "paulisaris-com"
+
+  hideHUGOSupport = false
+  hjsStyle = "default"
+
+  enableRobotsTXT = true
+  canonifyURLs = true
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 250
+
+[[menu.main]]
+  name = "About Me"
+  url = "/about"
+  weight = 240
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags"
+  weight = 230
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact"
+  weight = 210
