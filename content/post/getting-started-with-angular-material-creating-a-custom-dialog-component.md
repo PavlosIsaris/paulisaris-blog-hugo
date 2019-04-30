@@ -6,20 +6,20 @@ image: img/posts/getting_started_with_angular_material.jpg
 ---
 
 
-Angular is a popular framework for building single-page, interactive applciations. 
+Angular is a popular framework for building single-page, interactive applications. 
 
 With Angular gaining more popularity, we have the opportunity to use libraries that provide us with built-in UI components that allow us to focus on the code that will make our app stand out. ;)
 
-In this tutorial we will examine how to use [Angular Material](https://material.angular.io/) in order to build a clean and reusable dialog component.
+In this tutorial, we will examine how to use [Angular Material](https://material.angular.io/) in order to build a clean and reusable dialog component.
 
-We will focus on reusability, meaning that we will built a single custom dialog component that we will call when needed via a service class.
+We will focus on reusability, meaning that we will build a single custom dialog component that we will call when needed via a service class.
 This will help us avoid duplication of HTML templates and CSS classes, as well as improve [Separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) throughout our app.
 
 You can find the sample project in my [Github repository](https://github.com/PavlosIsaris/Angular-playground)
 
 # Getting started
 
-Before writing any code, we need to ste up our project. Angular uses a command line interface (cli in short) in order to use it's various commands. This tool can be installed as an npm dependency.
+Before writing any code, we need to set up our project. Angular uses a command line interface (CLI in short) in order to use its various commands. This tool can be installed as an npm dependency.
 
 We assume that you have npm installed as a global dependency on your system.
 You can verify a correct npm installation by running:
@@ -31,13 +31,13 @@ paul@spiderman:~$ npm -v
 
 (Yes I name all my computers with Superhero names, isn't that totally awesome?) :D
 
-Great, since we have npm installed, we can go ahead and install the angular cli tool:
+Great, since we have npm installed, we can go ahead and install the Angular CLI tool:
 ```bash
 npm -g i @angular/cli
 ```
 (-g states that the dependency will be installed globally)
 
-If the isntallation process finishes succesfully, we can use npm to print all global dependencies:
+If the installation process finishes successfully, we can use npm to print all global dependencies:
 
 ```bash
 paul@spiderman:~$ npm -g ls --depth=0
@@ -63,7 +63,7 @@ If everything goes according to plan, we should be able to navigate to http://lo
 
 # Adding Angular material to our project
 
-Now, it's time to install Angular material, and make use of it's built in components.
+Now, it's time to install Angular material and make use of it's built-in components.
 
 As stated in the [installation guide](https://material.angular.io/guide/getting-started), we use the following npm command to install Angular Material:
 
@@ -110,27 +110,6 @@ We also need to add the `DialogComponent`  to the `entryComponents` array in `sr
 
 {{< gist PavlosIsaris d8eca5a37afdc5b5e9d701f3270d0cef >}}
 
-```javascript
-@NgModule({
-  declarations: [
-    AppComponent,
-    DialogComponent
-  ],
-  entryComponents: [
-    DialogComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatButtonModule,
-    MatDialogModule
-  ],
-  providers: [DialogService],
-  bootstrap: [AppComponent]
-})
-export class AppModule { }
-```
 
 # Creating the dialog service
 
@@ -167,7 +146,7 @@ As it is stated in the interface, we can give a custom title and message for the
 
 # Structuring the custom dialog component
 
-It's time to set up our dialog component we created before.
+It's time to set up the dialog component we created before.
 Head to `src/app/dialog.dialog.component.ts` and add the following:
 
 ```javascript
@@ -190,56 +169,15 @@ export class DialogComponent implements OnInit {
 }
 ```
 
-Next, head over to `src/app/dialog.dialog.component.ts` to add the required HTML template:
+Next, head over to `src/app/dialog.dialog.component.html` to add the required HTML template:
 
-```html
-<h2 mat-dialog-title [innerHTML]="data.title"></h2>
-<mat-dialog-content [innerHTML]="data.message"></mat-dialog-content>
-<mat-dialog-actions class="flexbox-parent">
-  <div class="row justify-content-center">
-    <div class="col">
-      <button mat-button mat-raised-button color="primary" *ngIf="data.showOKBtn" (click)="close()">OK</button>
-      <button mat-button mat-raised-button mat-dialog-close *ngIf="data.showCancelBtn">Cancel</button>
-    </div>
-  </div>
-</mat-dialog-actions>
-```
+{{< gist PavlosIsaris 27628325c3f9cdcac151a0c2505d5abc >}}
 
 # Defining the openDialog method
 
 Next up, we need a method in our service that will create and handle the dialog component. Let's add this method in `src/app/services/dialog.service.ts`:
 
-```javascript
-import {Injectable} from '@angular/core';
-import {MatDialog, MatDialogRef} from '@angular/material';
-import {DialogData} from '../shared/dialog-data';
-import {DialogComponent} from '../dialog/dialog.component';
-
-@Injectable()
-export class DialogService {
-  private dialogRef: MatDialogRef<DialogComponent>;
-
-  constructor(public dialog: MatDialog) { }
-
-  openDialog(data: DialogData, additionalDialogConfigData?: any): MatDialogRef<DialogComponent> {
-
-    if (this.dialogRef) {
-      this.dialogRef.close();
-    }
-    this.dialogRef = this.dialog.open(DialogComponent, {
-      width: '500px',
-      data,
-      ...additionalDialogConfigData
-    });
-
-    this.dialogRef.afterClosed().subscribe(result => {
-    });
-
-    return this.dialogRef;
-  }
-}
-
-```
+{{< gist PavlosIsaris 67c3a5d32814436d5ec92d33fe2549e0 >}}
 
 The `additionalDialogConfigData` object passed, is Angular Material optional configuration for our dialog component.
 
@@ -310,7 +248,7 @@ export class AppComponent {
 
 # Using the dialog service
 
-In our `openDialog` method we would like to call the `openDialog` method defined in `src/app/services/dialog.service.ts` file. 
+In our `openDialog` method, we would like to call the `openDialog` method defined in `src/app/services/dialog.service.ts` file. 
 In order to do that, we need to use Angular's dependency injection to get an instance of Dialog service in our app component.
 
 Go ahead and add the dependency in `src/app/app.component.ts` constructor:
@@ -328,30 +266,9 @@ constructor(private dialogService: DialogService) {}
 And now for the fun part!
 First, we need to create an object as described in `app/shared/dialog-data.ts` interface.
 
-modify the `openDialog` mehtod in `src/app/app.component.ts` to reflect the following:
+modify `src/app/app.component.ts` to reflect the following:
 
-```javascript
-openDialog() {
-
-    const dialogData: DialogData = {
-      title: 'Test Dialog',
-      message: 'This is our first dialog!',
-      showOKBtn: true,
-      showCancelBtn: true
-    };
-
-    const dialogRef = this.dialogService.openDialog(
-      dialogData, {disableClose: true});
-
-    dialogRef.afterClosed().subscribe(result => {
-      if (result) {
-        console.log('User clicked OK');
-      } else {
-        console.log('User clicked Cancel');
-      }
-    });
-  }
-```
+{{< gist PavlosIsaris 338955029edbe0176455a73e15a6d7f7 >}}
 
 ... and that's it! If we head over to http://localhost:4200/ , we can click on the button and see a clean, natively styled dialog. 
 
@@ -366,7 +283,7 @@ Angular is a powerful ecosystem for building single page, interactive applicatio
 
 Angular Material is a collection of beautifully designed and clean components that you can easily integrate into your app and can save you countless hours of templating and theming.
 
-When using an Angular Material component, think about how you can abstract it and isolate it even more by using a service, so that you can easily re-use it thoughout your app!
+When using an Angular Material component, think about how you can abstract it and isolate it even more by using a service, so that you can easily re-use it throughout your app!
 
 
 
