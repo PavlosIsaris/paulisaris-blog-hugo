@@ -270,7 +270,9 @@ modify `src/app/app.component.ts` to reflect the following:
 
 {{< gist PavlosIsaris 338955029edbe0176455a73e15a6d7f7 >}}
 
-... and that's it! If we head over to http://localhost:4200/ , we can click on the button and see a clean, natively styled dialog. 
+... and that's it! If we head over to http://localhost:4200/ , we can click on the button and see a clean, natively styled dialog:
+
+![App Screenshot](/img/angular-material-screenshot.png) 
 
 Also, if we open the console, we can see the appropriate logs when we click either the "OK" or the "Cancel" buttons.
 
