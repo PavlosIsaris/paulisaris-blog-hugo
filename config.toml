@@ -16,7 +16,7 @@ title = "Paul Isaris | A Developer's Journey"
   customCSS = ["css/styles.css"]
   RSSLink = ""
 
-  #twitterName = "nivoul"
+  twitterName = "paulisaris"
   githubName = "PavlosIsaris"
   linkedinName = "pavlosisaris"
 
