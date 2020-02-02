@@ -5,6 +5,8 @@ tags: [agile]
 image: img/posts/scrum-events-the-sprint.jpg
 ---
 
+post photo by [unsplash.com](https://unsplash.com/)
+
 # Introduction
 
 This post is the first part of the "Scrum events demystified" post series.
