@@ -40,6 +40,9 @@ Scrum, the most important of all Scrum events; ***The Sprint***.
  an event itself** since it merely acts as a **container** for all other 
  Scrum events. This, of course, is true, but it is beneficial to treat it as an event (or a pseudo-event) to get a better grasp of what Scrum is about. 
  
+![Agile gif](https://media.giphy.com/media/xT1XGOGdyDrL2BTfxK/giphy.gif "Agile gif")
+
+
 # About the Sprint
 
 The Sprint is a **time-boxed event** (as all events are in Scrum). 
@@ -65,6 +68,9 @@ During the Sprint, the team is supposed to work uninterrupted on the tasks that
 compose the **Sprint Backlog**. Any external changes and requests are not welcome, since
 they are destined to decrease productivity, and should either be discarded or be dealt with
 by the whole **Scrum Team**.
+
+![Scrum gif](https://www.go2group.com/wp-content/uploads/2019/09/Meme-1.gif "Scrum gif")
+
 
 # Most common questions and misconceptions about Sprints
 
@@ -95,7 +101,9 @@ For a Sprint to start, the team needs 3 things:
    This has to do with the **Definition of Done** the team has set for 
    the project and should be flexible enough to tolerate unexpected changes, 
    and evolve with them during the Sprint.
-   
+
+![Organized gif](https://media.giphy.com/media/PbFp1FmxteXsc/giphy.gif "Organized gif")
+
    
 ***Who is responsible for defining the Sprint Goal for a given Sprint?***
 
@@ -137,6 +145,9 @@ but **is in no way obliged to complete them at any cost**.<br/>
 When the time is over, the Sprint is over as well. Any unfinished tasks 
 do not count as part of the Sprint output and are put back into the Product 
 Backlog. <br/>Usually, these tasks will be brought into the Sprint Backlog of the next Sprint, for the Development Team to finally complete them.
+
+![Flexible gif](https://media.giphy.com/media/Rn1nEzE4BTdC0/giphy.gif "Flexible gif")
+
 
 ***What happens between 2 Sprints?***
 
