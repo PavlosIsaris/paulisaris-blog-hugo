@@ -32,6 +32,10 @@ Indeed, Scrum is successfully used for many years now, from teams that want to c
  2. Developers wondering what they did to deserve one more PowerPoint presentation
  3. A ton of calories gained from the pastries that are usually served
  
+
+![Meeting gif](https://media.giphy.com/media/3o6MbiSDt6PKFUyrlK/giphy.gif "Meeting gif")
+
+
 Today I will be presenting the heart of 
 Scrum, the most important of all Scrum events; ***The Sprint***.
 
@@ -102,8 +106,7 @@ For a Sprint to start, the team needs 3 things:
    the project and should be flexible enough to tolerate unexpected changes, 
    and evolve with them during the Sprint.
 
-![Organized gif](https://media.giphy.com/media/PbFp1FmxteXsc/giphy.gif "Organized gif")
-
+![Team gif](https://media.giphy.com/media/l4EoRqcypxsvGuRk4/giphy.gif "Team gif")
    
 ***Who is responsible for defining the Sprint Goal for a given Sprint?***
 
