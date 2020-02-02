@@ -32,9 +32,10 @@ Indeed, Scrum is successfully used for many years now, from teams that want to c
  2. Developers wondering what they did to deserve one more PowerPoint presentation
  3. A ton of calories gained from the pastries that are usually served
  
-Today I will be presenting the heart of Scrum, the most important of all Scrum events; ***The Sprint***.
+Today I will be presenting the heart of 
+Scrum, the most important of all Scrum events; ***The Sprint***.
 
-:warning: 
+
 ***Disclaimer:*** Some might argue that the Sprint is **, not
  an event itself** since it merely acts as a **container** for all other 
  Scrum events. This, of course, is true, but it is beneficial to treat it as an event (or a pseudo-event) to get a better grasp of what Scrum is about. 
