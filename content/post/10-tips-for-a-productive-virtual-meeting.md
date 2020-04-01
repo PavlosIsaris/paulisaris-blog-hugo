@@ -1,6 +1,6 @@
 ---
 title: "10 Tips For a Productive Virtual Meeting"
-date: "2020-04-1"
+date: "2020-04-01"
 tags: [career,productivity]
 image: img/posts/tips-productive-virtual-meeting2.jpg
 ---
