@@ -1,3 +1,15 @@
 # About
 
-This is the code repository for the sample Angular application described in [my article](https://paulisaris.com/getting-started-with-angular-material---creating-a-custom-dialog-component/)
+This is the code repository for my blog. It is written in Hugo.
+
+To start the server:
+
+```bash
+hugo server
+```
+To build the static pages:
+
+```bash
+hugo
+```
+

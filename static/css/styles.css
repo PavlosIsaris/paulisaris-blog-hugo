@@ -1,0 +1,16 @@
+.inner {
+    max-width: 1200px;
+}
+
+.site-header .nav li a {
+    font-size: 110%;
+    opacity: 1;
+}
+
+.site-header .nav li a:hover {
+    opacity: 0.8;
+}
+
+.site-header {
+    background-position: top;
+}
