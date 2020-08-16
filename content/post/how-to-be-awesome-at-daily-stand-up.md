@@ -1,6 +1,6 @@
 ---
 title: "How to be awesome at your daily stand-up with 7 steps"
-date: "2019-08-18"
+date: "2019-08-20"
 tags: [career,productivity]
 image: img/posts/how_to_be_awesome_at_daily_stand_up.jpg
 ---
