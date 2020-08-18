@@ -67,7 +67,7 @@ Of course, your organization has its own rules and pain points, and the team you
 
 After all, it's your responsibility to create an on-boarding guide that best **fits and serves** your team's needs.
 
-So, spend some time writing down ideas and situations that fou and your team found **difficult** and **unsustainable** in the past. Then, write how these problems could be **alleviated**, by applying the 2-day on-boarding plan, and **don't be afraid to try** your own plan (we only get **better** by trial and error!)
+So, go ahead and don't be afraid to spend some time writing down ideas and situations that fou and your team found **difficult** and **unsustainable** in the past. Then, write how these problems could be **alleviated**, by applying the 2-day on-boarding plan, and **don't be afraid to try** your own plan (we only get **better** by trial and error!)
   
 
 # Last thoughts
