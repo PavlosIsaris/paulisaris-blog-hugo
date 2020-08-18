@@ -60,6 +60,24 @@ Often, this process reveals a lack of proper documentation of the project. Devel
 
 At this point, the new developer should already feel comfortable and productive. However, remember that as the difficulty of the tasks increase, they may feel overwhelmed again, and that's usually when the [Impostor syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome) occurs.<br>So, it becomes obvious that the new team member should feel free to ask any questions, no matter how "stupid" or "obvious" they may seem.
 
+# What to do now - Action points
 
+After you have read this guide, it's time to get cracking and **create your personalized** on-boarding plan!
+Of course, your organization has its own rules and pain points, and the team your a member of may benefit from different situations and **habits**.
+
+After all, it's your responsibility to create an on-boarding guide that best **fits and serves** your team's needs.
+
+So, spend some time writing down ideas and situations that fou and your team found **difficult** and **unsustainable** in the past. Then, write how these problems could be **alleviated**, by applying the 2-day on-boarding plan, and **don't be afraid to try** your own plan (we only get **better** by trial and error!)
+  
+
+# Last thoughts
 To conclude, adding a new member to a software team **is not an easy task**. Sometimes we forget how important the onboarding process can be, resulting in **poor estimates** (as the on-boarding is hugely underestimated), Impostor syndromes, and confusion for the entire team.
 Having a solid and effective on-boarding plan is crucial as it ensures both **productivity** and **good morale** for the **entire team**.
+
+# Further readings
+
+* [Developer Onboarding Checklist for Startups](https://www.process.st/checklist/developer-onboarding-checklist-for-startups/)
+
+* [Awesome Onboarding - GitHub](https://github.com/92bondstreet/awesome-onboarding)
+
+* [Developer Onboarding Checklist for Successful Agile Teams](https://www.dragonspears.com/blog/developer-onboarding-checklist-for-successful-agile-teams)
