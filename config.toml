@@ -55,10 +55,10 @@ title = "Paul Isaris | A Developer's Journey"
   url = "/about"
   weight = 240
 
-[[menu.main]]
-  name = "Newsletter"
-  url = "/newsletter"
-  weight = 230
+#[[menu.main]]
+#  name = "Newsletter"
+#  url = "/newsletter"
+#  weight = 230
 
 [[menu.main]]
   name = "Tags"
