@@ -21,7 +21,7 @@ For an audio version of the 2020 Scrum Guide, check [this link](https://www.yout
 You can also see a side-by-side comparison of the new Scrum Guide [here](https://www.scrum.org/resources/blog/scrum-guide-2020-and-2017-side-side-comparison).
 
  ![Scrum poster](/img/Scrum_Poster_2.png) 
- image taken from [scrum.org](https://www.scrum.org/)
+ <div style="text-align: center" >image taken from [scrum.org](https://www.scrum.org/)</div>
 
 # In a nutshell
 
@@ -158,7 +158,7 @@ Each of the three artifacts now contains "commitments" to them.
 Read more [here](https://www.scrum.org/resources/blog/addition-commitments-each-artifact).
 
 ![Scrum poster](/img/ao_scrum-framework-2020-poster.png) 
-image taken from [scrum.org](https://www.scrum.org/)
+ <div style="text-align: center" >image taken from [scrum.org](https://www.scrum.org/)</div>
 
 # Further Readings
 
