@@ -26,7 +26,8 @@ You can also see a side-by-side comparison of the new Scrum Guide [here](https:/
  image taken from [scrum.org](https://www.scrum.org/)
 
 # In a nutshell
-## Simpler language, more inclusion with the "Scrum team", Addition of "Why?" To the Sprint planning
+
+### Simpler language, more inclusion with the "Scrum team", Addition of "Why?" To the Sprint planning
 
 The new Scrum guide adopted a **simpler language** and generally **removed software-specific terminology**.
 
