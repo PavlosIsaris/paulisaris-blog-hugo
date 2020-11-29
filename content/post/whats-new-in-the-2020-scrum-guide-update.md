@@ -33,7 +33,8 @@ The authors also reduced it's size, from 19 pages in 2017, to 14 pages.
 The Scrum Guide is now less prescriptive, and more direct.<br/>
 It eliminates many suggestions such as the **Daily Scrum questions**, removes the "at least one mandatory action item from the Retrospective becoming a part of the Sprint Backlog" part as well as the advice on why Sprint cancelations are rare events. 
 
-The Sprint Review lost its detailed recipe on how to run the event. Also, the obvious is no longer stated: **Scrum is indeed not trivial to master**.
+There is neither mention of the three questions during the Daily Scrum, nor of the term "servant leadership" of the Scrum Master.<br/>
+Also, the obvious is no longer stated: **Scrum is indeed not trivial to master**.
 
 # In a bigger nutshell
 ## Changes that are worth mentioning
