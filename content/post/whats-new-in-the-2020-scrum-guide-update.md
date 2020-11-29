@@ -11,8 +11,6 @@ post photo by [pexels](https://www.pexels.com/)
 
 2020 Is (finally) coming to an end, but it wouldn't leave us with anything less than another surprise!
 
-Nothing to worry though! It's all for good.
-
 On November 18, 2020, Ken Schwaber and Jeff Sutherland published an update of the Scrum Guide. <br/>
 According to the co-creators, the Scrum Guide 2020 aims at “bringing Scrum back to being a minimally sufficient framework by removing or softening prescriptive language”.<br/>
 
@@ -29,9 +27,10 @@ You can also see a side-by-side comparison of the new Scrum Guide [here](https:/
 
 ### Simpler language, more inclusion with the "Scrum team", Addition of "Why?" To the Sprint planning
 
-The new Scrum guide adopted a **simpler language** and generally **removed software-specific terminology**.
+The new Scrum guide adopted a **simpler language** and generally **removed software-specific terminology**.<br/>
+The authors also reduced it's size, from 19 pages in 2017, to 14 pages.
 
-The Scrum Guide is now less prescriptive, eliminating many suggestions such as the Daily Scrum questions, at least one mandatory action item from the Retrospective becoming a part of the Sprint Backlog, or the advice on why Sprint cancelations are rare events. 
+The Scrum Guide is now less prescriptive, mre direct, eliminates many suggestions such as the Daily Scrum questions, removes the "at least one mandatory action item from the Retrospective becoming a part of the Sprint Backlog" part as well as the advice on why Sprint cancelations are rare events. 
 
 The Sprint Review lost its detailed recipe on how to run the event. Also, the obvious is no longer stated: **Scrum is indeed not trivial to master**.
 
