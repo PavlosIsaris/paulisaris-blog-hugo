@@ -8,13 +8,11 @@ type = "page"
 
 +++
 
-<p style="text-align: center">Hi, my name is Paul and this is my blog!</p>
-
 <img src="/img/paul_circle.png" alt="Paul Isaris photo">
 
-## About me
+## Who am I?
 
-**🚀 Passionate** Software Developer, Architect, and Project/Product Manager | 10+ Years of Expertise in Application
+🚀 Passionate **Software Developer**, **Architect**, and **Project/Product Manager** | **10+ Years** of Expertise in Application
 Development
 
 I am a results-driven professional with a proven track record in delivering **high-quality,
