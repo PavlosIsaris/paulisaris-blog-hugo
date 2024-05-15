@@ -1,5 +1,5 @@
 .inner {
-    max-width: 1200px;
+    max-width: 1300px;
 }
 
 .site-header .nav li a {
@@ -13,4 +13,8 @@
 
 .site-header {
     background-position: top;
+}
+
+.site-header-content {
+    padding: 8vw 4vw;
 }
