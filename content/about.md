@@ -27,8 +27,8 @@ community worldwide and
 therefore, I love to share my knowledge and broaden my horizons. I am particularly interested in software design and
 **Agile** practices.
 
-I also hold the [**Professional Scrum Master certification
-**](https://www.credly.com/badges/5f65d524-4ffc-41de-9bc2-55f4e21d039a/public_url), which has equipped me with the
+I also hold the **[Professional Scrum Master certification
+](https://www.credly.com/badges/5f65d524-4ffc-41de-9bc2-55f4e21d039a/public_url)**, which has equipped me with the
 skills to lead and coach Agile teams.
 
 ## Professional Experience
