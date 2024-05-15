@@ -1,4 +1,8 @@
 .inner {
+    max-width: 1200px;
+}
+
+.home-template .inner {
     max-width: 1300px;
 }
 
