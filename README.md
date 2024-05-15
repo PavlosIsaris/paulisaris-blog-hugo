@@ -1,6 +1,7 @@
 # About
 
-This is the code repository for my blog. The posts are written in Markdown and the blog
+This is the code repository for my blog, [paulisaris.com](https://paulisaris.com). The posts are written in Markdown and
+the blog
 uses [Hugo](https://gohugo.io/getting-started/).
 
 ## Installation
