@@ -20,17 +20,24 @@ Development
 I am a results-driven professional with a proven track record in delivering **high-quality,
 scalable, and innovative** applications.
 
-As a seasoned software developer, architect, and project/product manager, I bring a wealth of experience and expertise
+As a **seasoned** software developer, architect, and project/product manager, I bring a wealth of experience and expertise
 to every project I undertake.
+
+In general, I am excited about **clean code** and **software craftsmanship**. I strongly believe in the power of the community worldwide and
+therefore, I love to share my knowledge and broaden my horizons. I am particularly interested in software design and
+**Agile** practices.
+
+I also hold the [**Professional Scrum Master certification**](https://www.credly.com/badges/5f65d524-4ffc-41de-9bc2-55f4e21d039a/public_url), which has equipped me with the skills to lead and coach Agile teams.
 
 ## Professional Experience
 
-I am currently working as a **Senior Software Engineer & Project Manager** at [SciFY](https://scify.org/en), where I develop assistive
-technology solutions, as well as leading the educational projects of the organization. 
+I am currently working as a **Senior Software Engineer & Project Manager** at [SciFY](https://scify.org/en), where I
+develop assistive
+technology solutions, as well as leading the educational projects of the organization.
 
 I am responsible for the
 end-to-end software development life cycle, from project planning and architecture design to implementation and
-deployment. 
+deployment.
 
 I also manage cross-functional teams, ensuring that projects are delivered on time and within budget.
 
