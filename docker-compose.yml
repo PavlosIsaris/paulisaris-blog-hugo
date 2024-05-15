@@ -3,7 +3,7 @@ services:
 
   server:
     image: klakegg/hugo:0.54.0
-    container_name: paulisaris-hugo-server-container
+    container_name: paulisaris-blog-hugo-server-container
     command: server
     volumes:
       - ".:/src"
