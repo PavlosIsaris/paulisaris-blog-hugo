@@ -1,5 +1,5 @@
 ---
-title: "Windows Command Line Revolution: Make Windows Terminal Awesome with ZSH and Oh My ZSH!
+title: "Windows Command Line Revolution: Make Windows Terminal Awesome with ZSH and Oh My ZSH!"
 date: "2024-05-15"
 tags: [ tools,productivity ]
 image: img/posts/zsh_for_windows_post_cover.jpg
@@ -19,7 +19,7 @@ enjoy the power and flexibility of these tools without leaving the comfort of yo
 - [Introduction](#introduction)
 - [Embracing ZSH on Windows](#embracing-zsh-on-windows)
   - [Introducing ZSH: The Ultimate Shell Experience](#introducing-zsh-the-ultimate-shell-experience)
-  - [Oh My ZSH!: ZSH Supercharged](#oh-my-zsh-zsh-supercharged)
+  - [Oh My ZSH!: ZSH Supercharged](#oh-my-zsh-zsh-supercharged-)
 - [Step 1: Install Git + Git Bash for Windows](#step-1-install-git--git-bash-for-windows)
 - [Step 2: Installation and Configuration of ZSH in Windows](#step-2-installation-and-configuration-of-zsh-in-windows)
   - [2.1: Download ZSH](#21-download-zsh)
