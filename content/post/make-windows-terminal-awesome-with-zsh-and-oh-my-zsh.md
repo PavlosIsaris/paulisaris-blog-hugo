@@ -43,8 +43,11 @@ want to deal with the complexities of `WSL` (Windows Subsystem for Linux)?
 
 Well, rejoice, fellow developers, for there is a solution! With the
 combination of:
+
 1. [Git Bash for Windows](https://git-scm.com/downloads)
+
 2. [ZSH](https://www.zsh.org/)
+
 3. [Oh My ZSH!](https://ohmyz.sh/)
 
 you can transform your Windows command line experience into something truly remarkable.
