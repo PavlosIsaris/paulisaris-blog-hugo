@@ -56,7 +56,7 @@ enjoy the power and flexibility of these tools without leaving the comfort of yo
 
 ### Introducing ZSH: The Ultimate Shell Experience
 
-![ZSH](img/posts/Z_Shell_Logo_Color_Horizontal.jpg)
+![ZSH](/img/posts/Z_Shell_Logo_Color_Horizontal.jpg)
 
 *Image description: ZSH logo.*
 
@@ -66,7 +66,7 @@ improved tab completion, spelling correction, and extensive customization option
 
 ### Oh My ZSH!: ZSH Supercharged 
 
-![Oh My ZSH!](img/posts/omz-eastwood.png)
+![Oh My ZSH!](/img/posts/omz-eastwood.png)
 *Image description: Oh My ZSH! logo featuring a cute cartoon character with a command prompt.*
 
 But what truly takes ZSH to the next level is Oh My ZSH! This open-source framework for managing ZSH configurations
@@ -88,7 +88,7 @@ The `~/.bashrc` file is installed at `C:\Users\<your user name>\.bashrc`.
 terminal profile! (Select it from the dropdown menu in the top right corner of the terminal window), and then set it as
 default in the Settings.
 
-![Git Bash in Windows Terminal](img/posts/git_bash_default_terminal.png)
+![Git Bash in Windows Terminal](/img/posts/git_bash_default_terminal.png)
 *Image description: Selecting Git Bash as a terminal profile*
 
 ## Step 2: Installation and Configuration of ZSH in Windows
