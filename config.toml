@@ -12,7 +12,7 @@ title = "Paul Isaris | A Developer's Journey"
   cover       = "img/blog-cover.jpg"
   description = "Blog about a developer's journey in coding, teaching, design patterns, productivity and agile methods."
   metaDescription = "Paul Isaris Blog about a developer's journey in coding, teaching, design patterns, productivity and agile methods."
-  googleAnalytics = "UA-97506038-2"
+  googleAnalytics = "G-BCM7K54EG9"
   customCSS = ["css/styles.css"]
   RSSLink = ""
 
