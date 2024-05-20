@@ -28,5 +28,5 @@
     {{ range .Site.Params.customCSS }} <link rel="stylesheet" href="{{ . | absURL }}" /> {{ end }}
 
     {{ if .Site.Params.RSSLink}}<link href="{{.Site.Params.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" /> {{else}}{{ if eq .URL "/" }}<link href="{{ "index.xml" | absURL}}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" /> {{ end }} {{ end }}
-    <script id="CookieDeclaration" src="https://consent.cookiebot.com/53974561-3b76-4556-aa53-d89a473300ae/cd.js" type="text/javascript" async></script>
+    <!-- Start cookieyes banner --> <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/e33975fd55f3b5e552bec718/script.js"></script> <!-- End cookieyes banner -->
 </head>
