@@ -7,6 +7,8 @@ image: img/posts/mastering-code-quality-in-laravel-pint-with-git-hooks-and-docke
 
 # Mastering Code Quality in Laravel: Pint with Git Hooks and Docker
 
+(image by [pexels](https://www.pexels.com/))
+
 ## Introduction
 
 As developers, we all know how important clean, consistent code is for maintaining a large-scale Laravel application. Not only does well-formatted code boost readability, but it also ensures team-wide consistency and helps avoid pesky formatting debates during code reviews.
