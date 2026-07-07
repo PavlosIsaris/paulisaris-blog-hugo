@@ -1,4 +1,4 @@
-baseurl         = "https://paulisaris.com/"
+baseurl         = "https://paulisaris.dev/"
 theme           = "casper-two"
 languageCode    = "en-US"
 paginate        = 6
@@ -22,13 +22,13 @@ title = "Paul Isaris | A Developer's Journey"
 
   logo = ""
   orgName = "Paul Isaris"
-  orgWebsite = "https://paulisaris.com"
+  orgWebsite = "https://paulisaris.dev"
   orgDescription = "Not all those who wander are lost"
 
   author = "Paul Isaris"
   authorAvatar = "img/paul_60w.jpg"
   authorLocation = "Athens, Greece"
-  authorWebsite = "https://paulisaris.com"
+  authorWebsite = "https://paulisaris.dev"
   authorDescription = "Not all those who wander are lost"
 
   pageNotFoundTitle = "404 - Page not found"

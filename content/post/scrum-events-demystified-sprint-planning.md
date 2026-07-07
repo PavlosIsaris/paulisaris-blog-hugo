@@ -12,7 +12,7 @@ post photo by [pexels](https://www.pexels.com/)
 This post is the second part of the "Scrum events demystified" post series.
 
 You can find the first part
-here: [Scrum Events demystified - The Sprint](https://paulisaris.com/scrum-events-demystified---the-sprint/)
+here: [Scrum Events demystified - The Sprint](https://paulisaris.dev/scrum-events-demystified---the-sprint/)
 
  <hr>
 

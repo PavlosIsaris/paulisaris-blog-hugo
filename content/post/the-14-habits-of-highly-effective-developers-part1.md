@@ -8,10 +8,10 @@ image: img/posts/14_habits_part2.jpg
 ## Introduction
 
 This is the second part of the "The 14 habits of highly effective developers" series. You can also read the first
-part [here](https://paulisaris.com/the-14-habits-of-highly-effective-developers-part-1/), or
+part [here](https://paulisaris.dev/the-14-habits-of-highly-effective-developers-part-1/), or
 in [dev.to](https://dev.to/pavlosisaris/how-to-transition-from-junior-to-mid-level-developer-part-1-4gig)
 
-In the [first part](https://paulisaris.com/the-14-habits-of-highly-effective-developers-part-1/) of "The 14 habits of
+In the [first part](https://paulisaris.dev/the-14-habits-of-highly-effective-developers-part-1/) of "The 14 habits of
 highly effective developers" series, we began showing the power of **_habits_** in a developer's every day life and how
 can we benefit from incorporating simple yet crucial changes into our job, aiming to benefit the most and help leveling
 up our careers as software engineers.
@@ -108,7 +108,7 @@ Adding/ removing plugins and 3rd party libraries, making assumptions in code, ad
 process or using a specific version of a command line tool can be a huge pain in the future, if not documented
 correctly.
 This rule is tightly tied to the "Always think of the next developer" rule described in
-the [first part](https://paulisaris.com/the-14-habits-of-highly-effective-developers-part-1/). You should make sure that
+the [first part](https://paulisaris.dev/the-14-habits-of-highly-effective-developers-part-1/). You should make sure that
 you are not the only developer able to set up the project for development or run the production build.
 
 There is actually a pretty simple rule for that. After finished working with a project, clone the repository to a
