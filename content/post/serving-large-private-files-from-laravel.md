@@ -17,7 +17,7 @@ The reason you want to serve the originals might be scientific: the users need t
 
 If you have served files from Laravel before, you know the first thing that comes to mind: `php artisan storage:link`, drop the files under `storage/app/public`, and write `<img src="/storage/...">`. It takes five minutes and it works. It is also the **wrong tool** for this case! I hit exactly this scenario in an application I work on, and this post walks through what I built instead and why.
 
-The post is for anyone who serves files that are not public: uploads, datasets, scans, contracts, paid downloads. The code is written on Laravel 13 (PHP 8.2+), but the approach is decoupled from the framework and the version. The principles apply to any web application that needs to check who is asking before handing out a file.
+The post is for anyone who serves files that are not public: uploads, datasets, scans, contracts, paid downloads. The code is written on Laravel 13 (PHP 8.3+), but the approach is decoupled from the framework and the version. The principles apply to any web application that needs to check who is asking before handing out a file.
 
 ## The naive scenario, and why it fails
 
@@ -200,7 +200,7 @@ The error handler is there because `exif_read_data()` emits a warning, not an ex
 
 ```json
 "require": {
-    "php": "^8.4",
+    "php": "^8.3",
     "ext-exif": "*"
 }
 ```
