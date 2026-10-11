@@ -20,6 +20,9 @@ The Hugo server is running in a Docker container. To start the server:
 
 ```bash
 docker-compose up
+
+# or
+docker compose up
 ```
 
 The output will be like:
