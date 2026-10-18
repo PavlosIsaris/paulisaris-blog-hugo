@@ -65,7 +65,7 @@ The route takes the collection the user is browsing and the file they want:
 Route::get(
     'collections/{collection}/files/{file}',
     [CollectionFileController::class, 'show'],
-)->name('collections.file');
+)->middleware('auth')->name('collections.file');
 ```
 
 The frontend receives this URL inside the page payload and puts it in an `<img src>`. The browser sends the session cookie with the request, as with any other same-origin URL, so nothing special happens on the client.
@@ -130,7 +130,7 @@ class CollectionFileController extends Controller
 ```
 
 Two details are deliberate.
-First, both path segments come from the database, not from the request, and both are still checked. A row can be edited by hand, an import can have a bug, and `../../.env` in a file name must not become a readable path. Each segment has to be a single directory or file name: no slashes, no backslashes, no `..`. Second, every failure is a 404. A 403 for "wrong collection" and a 404 for "no such file" would tell a curious user which ids exist. One answer for everything leaks nothing.
+First, both path segments come from the database, not from the request, and both are still checked. A row can be edited by hand, an import can have a bug, and `../../.env` in a file name must not become a readable path. Each segment has to be a single directory or file name: no slashes, no backslashes, no `..`. Second, the status codes are a choice. A guest never reaches this code: the `auth` middleware redirects every guest to the login page, whether the collection exists or not, so anonymous traffic learns nothing. An authenticated user without access gets a 403. That tells them the id exists, and I accept it: they are known users, and a 404 for a collection they already know about is only confusing. Failures after authorization, such as an unsafe path or a missing file on disk, are a 404.
 
 `Storage::response()` returns a `StreamedResponse`. PHP reads the file in chunks and writes them to the output, so a 7 MB file does not get loaded into memory as a string.
 
@@ -144,11 +144,11 @@ What is still missing is an `ETag` or a `Last-Modified` header. After the day is
 
 The feature test for the endpoint has eight cases, and I think the list is worth more than the code, because it is the contract:
 
-- a guest is redirected to the login page;
-- a user who is not a member of the collection gets a 403;
+- a guest is redirected to the login page, so anonymous traffic cannot probe which ids exist;
+- an authenticated non-member gets a 403 (deliberate: known users may learn that the collection exists);
 - a member gets a 200 with `image/jpeg` and the private cache header;
 - an admin gets a 200 without being a member;
-- a file that belongs to a different collection gets a 403;
+- a file that belongs to a different collection gets a 403, for the same reason;
 - a file name containing `..` gets a 404;
 - a collection with no directory gets a 404;
 - a directory containing `..` gets a 404.
